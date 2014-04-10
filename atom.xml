@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Ryan CG]]></title>
-  <link href="http://ryancheung.github.io/atom.xml" rel="self"/>
-  <link href="http://ryancheung.github.io/"/>
-  <updated>2014-04-09T23:10:10+08:00</updated>
-  <id>http://ryancheung.github.io/</id>
+  <link href="http://ryancheung.me/atom.xml" rel="self"/>
+  <link href="http://ryancheung.me/"/>
+  <updated>2014-04-10T11:29:49+08:00</updated>
+  <id>http://ryancheung.me/</id>
   <author>
     <name><![CDATA[Ryan Cheung]]></name>
     
@@ -14,9 +14,9 @@
   
   <entry>
     <title type="html"><![CDATA[Things you should known about Rails Engine]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/12/02/things-you-should-known-about-rails-engine/"/>
+    <link href="http://ryancheung.me/blog/2012/12/02/things-you-should-known-about-rails-engine/"/>
     <updated>2012-12-02T21:28:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/12/02/things-you-should-known-about-rails-engine</id>
+    <id>http://ryancheung.me/blog/2012/12/02/things-you-should-known-about-rails-engine</id>
     <content type="html"><![CDATA[<p>Rails Engine 算是 Rails 框架中的一项伟大发明，由于 Rails Application 本身也是
 个 Engine, 因此它让你的 App 挂载其他 Engine, 甚至在 Engine 中挂载 Engine。它
 的主要目标是可以模块化大型业务系统，例如做 Authentication 的 <a href="https://github.com/plataformatec/devise">Devise</a>,
@@ -176,9 +176,9 @@ Dir[File.join(ENGINE_RAILS_ROOT, "spec/support/**/*.rb")].each {|f| require f }
   
   <entry>
     <title type="html"><![CDATA[Use Presenters in Rails]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/11/11/use-presenters-in-rails/"/>
+    <link href="http://ryancheung.me/blog/2012/11/11/use-presenters-in-rails/"/>
     <updated>2012-11-11T21:44:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/11/11/use-presenters-in-rails</id>
+    <id>http://ryancheung.me/blog/2012/11/11/use-presenters-in-rails</id>
     <content type="html"><![CDATA[<p>通常在 Rails App 中我们提倡 fat model skinny controller，但当业务的复杂度不断增加的时候，
 也可能会出现 fat controller 或者 fat view 的情况。例如 NICE-Program 减重方案智能生成项目中，
 展示方案的 view 堆积了一堆的展示逻辑，包括如身高体重单位转换、性别文字展示、动态显示设定数量
@@ -226,7 +226,7 @@ Presenter 可以封装这些逻辑来方便测试，并且使我们的 view 变�
 
 <h3>The Decorator Pattern</h3>
 
-<p><img src="http://ryancheung.github.io/images/decorator_uml.png"></p>
+<p><img src="http://ryancheung.me/images/decorator_uml.png"></p>
 
 <p>Decorator 模式，顾名思义就是装饰对象，即向对象添加额外的功能。它的实现是通过一个对象来包裹一个
 现有的对象来添加其他需要的功能，并且以代理的方式提供现有对象的功能。这个恰巧符合 Presenter 的
@@ -309,9 +309,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[使用 Nginx+Unicorn 配置 Rails App Server]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/10/28/shi-yong-nginx-plus-unicorn-pei-zhi-rails-app-server/"/>
+    <link href="http://ryancheung.me/blog/2012/10/28/shi-yong-nginx-plus-unicorn-pei-zhi-rails-app-server/"/>
     <updated>2012-10-28T13:16:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/10/28/shi-yong-nginx-plus-unicorn-pei-zhi-rails-app-server</id>
+    <id>http://ryancheung.me/blog/2012/10/28/shi-yong-nginx-plus-unicorn-pei-zhi-rails-app-server</id>
     <content type="html"><![CDATA[<p>Unicorn 是一个非常不错的 Ruby HTTP Server。它是被设计用来给客户端提供低延迟、
 高带宽连接的服务，而且它利用了 Unix/类Unix 内核的特性优势。
 目前很多使用 Rails 的大型网站如 Twitter, Github 等都在使用它。</p>
@@ -320,11 +320,11 @@ end
 
 <h2>设计</h2>
 
-<p><img src="http://ryancheung.github.io/images/angry_unicorn.png"></p>
+<p><img src="http://ryancheung.me/images/angry_unicorn.png"></p>
 
 <p>Unicorn 中文及独角兽或麒麟的意思，名字听起来就很霸气。下面是它的架构:</p>
 
-<p><img src="http://ryancheung.github.io/images/unicorn_arthitechture.png"></p>
+<p><img src="http://ryancheung.me/images/unicorn_arthitechture.png"></p>
 
 <p>Nginx 通过一个共享的 Unix Domain Socket(或者 TCP) 将请求重定向到 Unicorn 的 worker 进程池。
 Unicorn 的 master 进程则管理这些 worker 进程并且由操作系统来处理负载均衡。
@@ -454,9 +454,9 @@ restart 等操作，这个 unicorn github 本版库也有个 <a href="https://gi
   
   <entry>
     <title type="html"><![CDATA[Ajax In Rails 3]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/10/14/ajax-in-rails-3/"/>
+    <link href="http://ryancheung.me/blog/2012/10/14/ajax-in-rails-3/"/>
     <updated>2012-10-14T20:00:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/10/14/ajax-in-rails-3</id>
+    <id>http://ryancheung.me/blog/2012/10/14/ajax-in-rails-3</id>
     <content type="html"><![CDATA[<p>我们在使用 <code>link_to</code> 和 <code>form_for</code> API的时候经常会看到一个参数
  <code>:remote =&gt; true</code> ，这个参数是做什么用的呢？在阅读文档后发现
 它是用来做 AJAX 异步调用的。虽然知道它是，但在使用 rails 这
@@ -505,7 +505,7 @@ restart 等操作，这个 unicorn github 本版库也有个 <a href="https://gi
 
 <p>将生成</p>
 
-<pre><code>&lt;a href="http://ryancheung.github.io/admin/solutions/edit_struct?evaluation_input_id=1&amp;amp;type=solution" data-remote="true"&gt;修改&lt;/a&gt;
+<pre><code>&lt;a href="http://ryancheung.me/admin/solutions/edit_struct?evaluation_input_id=1&amp;amp;type=solution" data-remote="true"&gt;修改&lt;/a&gt;
 </code></pre>
 
 <h2>处理 AJAX 返回</h2>
@@ -543,11 +543,11 @@ ajax:complete
 <p>下面是 NICE Slim 中的一个例子。在方案编辑页面中需要可以在本页
 编辑饮食结构：</p>
 
-<p><img src="http://ryancheung.github.io/images/nice_slim_1.png"></p>
+<p><img src="http://ryancheung.me/images/nice_slim_1.png"></p>
 
 <p>点击<em>修改</em>按钮后变成：</p>
 
-<p><img src="http://ryancheung.github.io/images/nice_slim_2.png"></p>
+<p><img src="http://ryancheung.me/images/nice_slim_2.png"></p>
 
 <p>在控制器中，我们需要添加 js 的返回格式</p>
 
@@ -574,9 +574,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[services]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/09/16/services/"/>
+    <link href="http://ryancheung.me/blog/2012/09/16/services/"/>
     <updated>2012-09-16T22:36:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/09/16/services</id>
+    <id>http://ryancheung.me/blog/2012/09/16/services</id>
     <content type="html"><![CDATA[<h2>服务</h2>
 
 <p>通常在我们做模型设计的时候，我们会根据实际业务抽象出很
@@ -629,9 +629,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[使用 git flow 工具管理开发流程]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/09/02/shi-yong-git-flow-gong-ju-guan-li-kai-fa-liu-cheng/"/>
+    <link href="http://ryancheung.me/blog/2012/09/02/shi-yong-git-flow-gong-ju-guan-li-kai-fa-liu-cheng/"/>
     <updated>2012-09-02T23:27:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/09/02/shi-yong-git-flow-gong-ju-guan-li-kai-fa-liu-cheng</id>
+    <id>http://ryancheung.me/blog/2012/09/02/shi-yong-git-flow-gong-ju-guan-li-kai-fa-liu-cheng</id>
     <content type="html"><![CDATA[<p>我们都知道, 在 git 的分支功能相对 svn 确实方便许多，而且也非常推荐使用分支来做开发.
 我的做法是每个项目都有2个分支, master 和 dev. master 分支是主分支, 保证程序有一个
 稳定版本, dev 则是开发用的分支, 几乎所有的功能开发, bug 修复都在这个分支上, 完成后

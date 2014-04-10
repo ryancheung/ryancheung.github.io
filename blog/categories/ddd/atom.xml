@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: DDD | Ryan CG]]></title>
-  <link href="http://ryancheung.github.io/blog/categories/ddd/atom.xml" rel="self"/>
-  <link href="http://ryancheung.github.io/"/>
-  <updated>2014-04-09T23:10:10+08:00</updated>
-  <id>http://ryancheung.github.io/</id>
+  <link href="http://ryancheung.me/blog/categories/ddd/atom.xml" rel="self"/>
+  <link href="http://ryancheung.me/"/>
+  <updated>2014-04-10T11:29:49+08:00</updated>
+  <id>http://ryancheung.me/</id>
   <author>
     <name><![CDATA[Ryan Cheung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[services]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/09/16/services/"/>
+    <link href="http://ryancheung.me/blog/2012/09/16/services/"/>
     <updated>2012-09-16T22:36:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/09/16/services</id>
+    <id>http://ryancheung.me/blog/2012/09/16/services</id>
     <content type="html"><![CDATA[<h2>服务</h2>
 
 <p>通常在我们做模型设计的时候，我们会根据实际业务抽象出很

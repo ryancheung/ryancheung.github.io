@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: git | Ryan CG]]></title>
-  <link href="http://ryancheung.github.io/blog/categories/git/atom.xml" rel="self"/>
-  <link href="http://ryancheung.github.io/"/>
-  <updated>2014-04-09T23:10:10+08:00</updated>
-  <id>http://ryancheung.github.io/</id>
+  <link href="http://ryancheung.me/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://ryancheung.me/"/>
+  <updated>2014-04-10T11:29:49+08:00</updated>
+  <id>http://ryancheung.me/</id>
   <author>
     <name><![CDATA[Ryan Cheung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[使用 git flow 工具管理开发流程]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/09/02/shi-yong-git-flow-gong-ju-guan-li-kai-fa-liu-cheng/"/>
+    <link href="http://ryancheung.me/blog/2012/09/02/shi-yong-git-flow-gong-ju-guan-li-kai-fa-liu-cheng/"/>
     <updated>2012-09-02T23:27:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/09/02/shi-yong-git-flow-gong-ju-guan-li-kai-fa-liu-cheng</id>
+    <id>http://ryancheung.me/blog/2012/09/02/shi-yong-git-flow-gong-ju-guan-li-kai-fa-liu-cheng</id>
     <content type="html"><![CDATA[<p>我们都知道, 在 git 的分支功能相对 svn 确实方便许多，而且也非常推荐使用分支来做开发.
 我的做法是每个项目都有2个分支, master 和 dev. master 分支是主分支, 保证程序有一个
 稳定版本, dev 则是开发用的分支, 几乎所有的功能开发, bug 修复都在这个分支上, 完成后

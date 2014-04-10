@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ajax | Ryan CG]]></title>
-  <link href="http://ryancheung.github.io/blog/categories/ajax/atom.xml" rel="self"/>
-  <link href="http://ryancheung.github.io/"/>
-  <updated>2014-04-09T23:10:10+08:00</updated>
-  <id>http://ryancheung.github.io/</id>
+  <link href="http://ryancheung.me/blog/categories/ajax/atom.xml" rel="self"/>
+  <link href="http://ryancheung.me/"/>
+  <updated>2014-04-10T11:29:49+08:00</updated>
+  <id>http://ryancheung.me/</id>
   <author>
     <name><![CDATA[Ryan Cheung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ajax In Rails 3]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/10/14/ajax-in-rails-3/"/>
+    <link href="http://ryancheung.me/blog/2012/10/14/ajax-in-rails-3/"/>
     <updated>2012-10-14T20:00:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/10/14/ajax-in-rails-3</id>
+    <id>http://ryancheung.me/blog/2012/10/14/ajax-in-rails-3</id>
     <content type="html"><![CDATA[<p>我们在使用 <code>link_to</code> 和 <code>form_for</code> API的时候经常会看到一个参数
  <code>:remote =&gt; true</code> ，这个参数是做什么用的呢？在阅读文档后发现
 它是用来做 AJAX 异步调用的。虽然知道它是，但在使用 rails 这
@@ -66,7 +66,7 @@
 
 <p>将生成</p>
 
-<pre><code>&lt;a href="http://ryancheung.github.io/admin/solutions/edit_struct?evaluation_input_id=1&amp;amp;type=solution" data-remote="true"&gt;修改&lt;/a&gt;
+<pre><code>&lt;a href="http://ryancheung.me/admin/solutions/edit_struct?evaluation_input_id=1&amp;amp;type=solution" data-remote="true"&gt;修改&lt;/a&gt;
 </code></pre>
 
 <h2>处理 AJAX 返回</h2>

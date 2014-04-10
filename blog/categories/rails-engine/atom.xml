@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Rails-Engine | Ryan CG]]></title>
-  <link href="http://ryancheung.github.io/blog/categories/rails-engine/atom.xml" rel="self"/>
-  <link href="http://ryancheung.github.io/"/>
-  <updated>2014-04-09T23:10:10+08:00</updated>
-  <id>http://ryancheung.github.io/</id>
+  <link href="http://ryancheung.me/blog/categories/rails-engine/atom.xml" rel="self"/>
+  <link href="http://ryancheung.me/"/>
+  <updated>2014-04-10T11:29:49+08:00</updated>
+  <id>http://ryancheung.me/</id>
   <author>
     <name><![CDATA[Ryan Cheung]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Things you should known about Rails Engine]]></title>
-    <link href="http://ryancheung.github.io/blog/2012/12/02/things-you-should-known-about-rails-engine/"/>
+    <link href="http://ryancheung.me/blog/2012/12/02/things-you-should-known-about-rails-engine/"/>
     <updated>2012-12-02T21:28:00+08:00</updated>
-    <id>http://ryancheung.github.io/blog/2012/12/02/things-you-should-known-about-rails-engine</id>
+    <id>http://ryancheung.me/blog/2012/12/02/things-you-should-known-about-rails-engine</id>
     <content type="html"><![CDATA[<p>Rails Engine 算是 Rails 框架中的一项伟大发明，由于 Rails Application 本身也是
 个 Engine, 因此它让你的 App 挂载其他 Engine, 甚至在 Engine 中挂载 Engine。它
 的主要目标是可以模块化大型业务系统，例如做 Authentication 的 <a href="https://github.com/plataformatec/devise">Devise</a>,
